@@ -13,7 +13,7 @@ const Header = () => {
             <img src={Logo} alt="" className="" />
           </div>
 
-          <ul className="flex items-center text-white font-semibold justify-center gap-5">
+          <ul className="flex items-center text-white font-semibold justify-center gap-15 ">
             <li className="">Home </li>
             <li className="">Shop</li>
             <li className="">About us </li>

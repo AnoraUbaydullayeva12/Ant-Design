@@ -1,14 +1,19 @@
 import React from 'react'
 import Header from "./components/Header"
-import Footer from './components/Footer'
+import BlockOne from './components/BlockOne';
+import BlockTwo from './components/BlockTwo'
+import BlockThree from "./components/BlockThree"
+import BlockFour from "./components/BlockFour"
 const App = () => {
   return (
     <div>
       <Header/>
-      <Footer/>
+      <BlockOne/>
+      <BlockTwo/>
+      <BlockThree/>
+      <BlockFour/>
     </div>
   )
 }
 
 export default App
-//asdfhuieugfiuerlgfiyeqlgfyeuryuflerkqfre
