@@ -1,8 +1,11 @@
 import React from "react";
-import Img from "../assets/FirstPageImage/BlockThreeImg.png";
+import Img from "../..//assets/FirstPageImage/BlockThreeImg.png";
 const BlockThree = () => {
   return (
-    <div className="bg-black flex justify-between items-center">
+    <div className="bg-black">
+      <div className="container max-w-[90%] mx-auto">
+       <div className="flex items-center justify-between">
+         
       <div className="">
         <img src={Img} alt="" className="" />
       </div>
@@ -24,6 +27,8 @@ const BlockThree = () => {
           to be more than just a shopping destination; we are a <br /> community that
           inspires and empowers individuals on their <br /> fragrance journey.
         </p>
+      </div>
+       </div>
       </div>
     </div>
   );

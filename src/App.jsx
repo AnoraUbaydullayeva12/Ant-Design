@@ -1,19 +1,13 @@
-import React from 'react'
-import Header from "./components/Header"
-import BlockOne from './components/BlockOne';
-import BlockTwo from './components/BlockTwo'
-import BlockThree from "./components/BlockThree"
-import BlockFour from "./components/BlockFour"
+import React from "react";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
 const App = () => {
   return (
     <div>
-      <Header/>
-      <BlockOne/>
-      <BlockTwo/>
-      <BlockThree/>
-      <BlockFour/>
+      <Header />
+      <Home />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

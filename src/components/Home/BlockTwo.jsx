@@ -1,5 +1,5 @@
 import React from "react";
-import BgImg from "../assets/FirstPageImage/BlockTwoImg.png";
+import BgImg from "../../assets/FirstPageImage/BlockTwoImg.png";
 
 const BlockTwo = () => {
   return (
