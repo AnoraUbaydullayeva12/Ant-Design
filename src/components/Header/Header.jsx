@@ -6,10 +6,10 @@ import { IoMdHeartEmpty } from "react-icons/io";
 import { BiShoppingBag } from "react-icons/bi";
 const Header = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black relative">
       <div className="container max-w-[90%] mx-auto">
-        <header className="py-2 ">
-          <nav className="flex items-center justify-between py-5">
+        <header className="py-2 fixed top-0 bg-black">
+          <nav className="flex items-center gap-30 py-5">
             <div className="">
               <img src={Logo} alt="" className="" />
             </div>
